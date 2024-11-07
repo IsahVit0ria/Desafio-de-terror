@@ -1,0 +1,42 @@
+/*Estes comando define a cor do fundo do nosso projeto, com um tom mais escuro*/
+
+body{
+
+
+    background-color: black;
+    
+        /*Vamos definir a cor que queremos o nosso título*/
+    
+    color: rgb(198, 156, 236);
+    
+    }
+    
+    
+        /*Este comando abaixo estiliza a nossa imagem que conterá no nosso projeto*/
+    
+        img{
+    
+            /*Define a largurra da imagem*/
+                width: 30%;
+            /*Define a altura da imagem*/
+                height: 30%;
+    
+        }
+    
+    
+            /*Aplica um novo estilo ao passar do mouse na nossa imagem da lampada*/
+                img:hover {
+    
+            /*Altera a imagem apagada para a imagem ´´acesa´´ ao passar o mouse encima*/
+    
+    
+    
+    
+            width: 40%;
+            content: url(Halloween.gif);
+            height: 20%;
+    
+    
+    
+    
+          }
